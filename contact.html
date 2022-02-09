@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="lib/script.js"></script>
+  </head>
+
+
+  <body>
+  <!-- Header / Nav Bar -->
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./contact.html">Contact Me!</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Header Welcome Message -->
+      <header>
+        <h1 class="welcome-message">Contact Me!</h1>
+      </header>
+      
+      <!-- Contact Form -->
+      <form name="contact-form" class="front-Page text">
+        <div class="form-field required">
+          <label for="name">First Name:</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="form-field required">
+          <label for="name">Last Name:</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="form-field required">
+          <label for="email">Your Email:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-field required">
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" rows="10" cols="50"></textarea>
+        </div>
+        <div class="form-field">
+          <label for="Major">Major: </label>
+          <select>
+            <option>
+              Please Choose An Option
+            </option>
+            <option>
+              Computer Science
+            </option>
+            <option>
+              An Objectively Worse Major
+            </option>
+          </select>
+        </div>
+        <div class="form-field">
+          <a href="./submitted.html">
+            <input type="submit"/>
+          </a>
+        </div>
+      </form>
+
+    </main>
+  </body>
+</html>

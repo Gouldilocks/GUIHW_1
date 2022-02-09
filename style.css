@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0B0B45;
+  margin: 0;
+  margin-top: 3.25rem;
+}
+
+h1 {
+  color: #ADD8E6
+}
+
+p[class] {
+    font-size: 120%;
+}
+
+nav {
+  background: rgb(55, 60, 87);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #FFF;
+}
+
+main {
+  padding: .5rem .5rem;
+}
+
+p {
+  text-align: justify;
+  text-decoration-color:#ADD8E6;
+  color: #ADD8E6;
+}
+
+.welcome-message{
+  text-align: center;
+  color: #ADD8E6;
+  font: bold;
+}
+
+.class-intro{
+  text-align: justify;
+
+  text-decoration-color: #ADD8E6;
+  color: #ADD8E6;
+}
+
+.text{
+  color: #ADD8E6;
+  opacity: 1.0;
+}
+.col-3 {
+  column-count: 3;
+}
+
+.col-3 p:first-child {
+  margin-top: 0;
+}
+
+.front-Page{
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.overflowMe {
+  border: solid 1px gray;
+  max-height: 15rem;
+  overflow-y: scroll;
+  padding: 0 1rem;
+}
+
+.banner-image {
+  position: relative;
+  z-index: 2;
+  display:flex;
+  flex-direction: column;
+}
+
+.banner-image > div {
+  opacity: 0.5;
+  display: flex;
+  position: absolute;
+  bottom: 3rem;
+  right: 0;
+  left: 0;
+  text-align: center;
+  background: red;
+  padding: .5rem 1rem;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.float-right {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.clear {
+  clear: both;
+}
+
+.rounded {
+  position: relative;
+  border-radius: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 21rem;
+  height: 22rem;
+}
+
+.scroll-box {
+  border: solid 1px gray;
+  max-height: 15rem;
+  overflow-y: scroll;
+  padding: 0 1rem;
+}
+
+.required label::after {
+  content: '*';
+  color: red;
+  margin-left: .5rem;
+  font-weight: bold;
+}
+
+#bannerText {
+  opacity: 1.0;
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
